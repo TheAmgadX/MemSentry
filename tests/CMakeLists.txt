@@ -10,4 +10,7 @@ target_include_directories(mem_sentry_tests PRIVATE
     ${PROJECT_SOURCE_DIR}/include
 )
 
+# Add mem_pools unit tests
+add_subdirectory(mem_pools)
+
 # set(MEM_SENTRY_ENABLE ON CACHE BOOL "" FORCE)

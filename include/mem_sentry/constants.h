@@ -24,5 +24,7 @@ namespace MEM_SENTRY::constants {
             #define MEM_SENTRY_ENABLE 0
         #endif
     #endif
+
+    constexpr size_t CACHE_LINE_SIZE = std::hardware_destructive_interference_size;
 };
 
